@@ -1,5 +1,5 @@
 export PERSONAL_SOURCE=$WORKSPACE/android/workspace/proprietary_vendor_personal
-export TOOLS_SOURCE=$WORKSPACE/projects/android_tools
+export TOOLS_SOURCE=$WORKSPACE/android/workspace/android_tools
 
 if [ ! -d $PERSONAL_SOURCE ]
 then

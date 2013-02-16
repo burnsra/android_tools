@@ -7,8 +7,8 @@ function g_prop {
     echo "# end addon properties" >> ./system/etc/g.prop
 }
 
-export GAPPS_SOURCE=$WORKSPACE/projects/proprietary_vendor_google
-export TOOLS_SOURCE=$WORKSPACE/projects/android_tools
+export GAPPS_SOURCE=$WORKSPACE/android/workspace/proprietary_vendor_google
+export TOOLS_SOURCE=$WORKSPACE/android/workspace/android_tools
 
 if [ ! -d $GAPPS_SOURCE ]
 then
